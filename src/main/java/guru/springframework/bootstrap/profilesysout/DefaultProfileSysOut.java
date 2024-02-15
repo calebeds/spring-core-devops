@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class DefaultProfileSysOut {
 
     @Autowired
-    public DefaultProfileSysOut( @Value("${guru.springframework.profile.message}") String msg) {
+    public DefaultProfileSysOut(@Value("${guru.springframework.profile.message}") String msg) {
         System.out.println("#########################");
         System.out.println("#########################");
         System.out.println("##     DEFAULT         ##");
